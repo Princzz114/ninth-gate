@@ -1,0 +1,9 @@
+node_modules
+.vercel
+dist
+artifacts
+.env
+.env.*
+*.log
+.DS_Store
+.nitro

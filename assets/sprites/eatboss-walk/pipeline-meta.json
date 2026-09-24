@@ -1,0 +1,175 @@
+{
+  "target": "player",
+  "mode": "sheet",
+  "prompt": "",
+  "role": "",
+  "input": "/workspace/assets/sprites/eatboss-walk/raw-sheet.jpg",
+  "threshold": 100,
+  "edge_threshold": 150,
+  "duration": 200,
+  "rows": 2,
+  "cols": 2,
+  "cell_size": 128,
+  "fit_scale": 0.85,
+  "trim_border": 4,
+  "edge_clean_depth": 3,
+  "align": "feet",
+  "shared_scale": true,
+  "component_mode": "largest",
+  "component_padding": 0,
+  "min_component_area": 1,
+  "edge_touch_margin": 0,
+  "frame_labels": [
+    "walk-1",
+    "walk-2",
+    "walk-3",
+    "walk-4"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        704,
+        704
+      ],
+      "component_mode": "largest",
+      "component_count": 12,
+      "selected_component_area": 88183,
+      "selected_component_bbox": [
+        224,
+        45,
+        589,
+        642
+      ],
+      "crop_bbox": [
+        224,
+        45,
+        589,
+        642
+      ],
+      "edge_touch": false,
+      "output_size": [
+        66,
+        108
+      ],
+      "paste_position": [
+        31,
+        11
+      ]
+    },
+    {
+      "grid": [
+        0,
+        1
+      ],
+      "source_box": [
+        704,
+        0,
+        1408,
+        704
+      ],
+      "component_mode": "largest",
+      "component_count": 7,
+      "selected_component_area": 89699,
+      "selected_component_bbox": [
+        101,
+        45,
+        485,
+        641
+      ],
+      "crop_bbox": [
+        101,
+        45,
+        485,
+        641
+      ],
+      "edge_touch": false,
+      "output_size": [
+        69,
+        108
+      ],
+      "paste_position": [
+        29,
+        11
+      ]
+    },
+    {
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        704,
+        704,
+        1408
+      ],
+      "component_mode": "largest",
+      "component_count": 9,
+      "selected_component_area": 86385,
+      "selected_component_bbox": [
+        213,
+        1,
+        586,
+        589
+      ],
+      "crop_bbox": [
+        213,
+        1,
+        586,
+        589
+      ],
+      "edge_touch": false,
+      "output_size": [
+        67,
+        107
+      ],
+      "paste_position": [
+        30,
+        12
+      ]
+    },
+    {
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        704,
+        704,
+        1408,
+        1408
+      ],
+      "component_mode": "largest",
+      "component_count": 7,
+      "selected_component_area": 87942,
+      "selected_component_bbox": [
+        103,
+        0,
+        483,
+        591
+      ],
+      "crop_bbox": [
+        103,
+        0,
+        483,
+        591
+      ],
+      "edge_touch": false,
+      "output_size": [
+        69,
+        107
+      ],
+      "paste_position": [
+        29,
+        12
+      ]
+    }
+  ],
+  "edge_touch_frames": []
+}

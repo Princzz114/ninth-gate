@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0b0c10;
+  --color-elevated: #14151a;
+  --color-panel: #1b1d24;
+  --color-fg: #eceef2;
+  --color-muted: #8b8e98;
+  --color-line: #2a2d36;
+  --color-accent: #c8ccd4;
+  --color-accent-fg: #0b0c10;
+  --font-display: "Oswald", "Arial Narrow", sans-serif;
+  --font-sans: "Figtree", "Segoe UI", sans-serif;
+}
+
+@layer base {
+  html, body, #app { min-height: 100%; background: var(--color-bg); color: var(--color-fg); font-family: var(--font-sans); }
+  html, body { overflow: hidden; overscroll-behavior: none; }
+  button:not(:disabled), [role="button"]:not(:disabled) { cursor: pointer; }
+}
+
+@keyframes yellow-surge {
+  0%, 100% { box-shadow: 0 0 8px #f5d76e, 0 0 18px rgba(232,180,92,0.7); }
+  50% { box-shadow: 0 0 16px #ffe27a, 0 0 38px rgba(245,215,110,0.95); }
+}
+@keyframes dir-pulse {
+  0%, 100% { box-shadow: 0 0 8px #f5d76e; }
+  50% { box-shadow: 0 0 14px #ffe27a; }
+}
+.super-btn {
+  background: linear-gradient(180deg, #ffe27a 0%, #e8b45c 55%, #c9922e 100%);
+  color: #1a1408;
+  border-color: #ffe9a0;
+  animation: yellow-surge 1.15s ease-in-out infinite;
+  font-weight: 700;
+}
+.super-btn.armed { animation-duration: 0.55s; filter: brightness(1.12); }
+.dir-glow { border-color: #f5d76e; color: #ffe9a0; animation: dir-pulse 1.2s ease-in-out infinite; }

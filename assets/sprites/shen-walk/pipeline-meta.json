@@ -1,0 +1,192 @@
+{
+  "target": "player",
+  "mode": "sheet",
+  "prompt": "",
+  "role": "",
+  "input": "/workspace/assets/sprites/shen-walk/raw-sheet.jpg",
+  "threshold": 100,
+  "edge_threshold": 150,
+  "duration": 200,
+  "rows": 2,
+  "cols": 2,
+  "cell_size": 128,
+  "fit_scale": 0.85,
+  "trim_border": 4,
+  "edge_clean_depth": 3,
+  "align": "feet",
+  "shared_scale": true,
+  "component_mode": "largest",
+  "component_padding": 0,
+  "min_component_area": 1,
+  "edge_touch_margin": 0,
+  "frame_labels": [
+    "walk-1",
+    "walk-2",
+    "walk-3",
+    "walk-4"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        704,
+        704
+      ],
+      "component_mode": "largest",
+      "component_count": 212,
+      "selected_component_area": 65702,
+      "selected_component_bbox": [
+        301,
+        50,
+        581,
+        651
+      ],
+      "crop_bbox": [
+        301,
+        50,
+        581,
+        651
+      ],
+      "edge_touch": true,
+      "output_size": [
+        49,
+        106
+      ],
+      "paste_position": [
+        39,
+        13
+      ]
+    },
+    {
+      "grid": [
+        0,
+        1
+      ],
+      "source_box": [
+        704,
+        0,
+        1408,
+        704
+      ],
+      "component_mode": "largest",
+      "component_count": 106,
+      "selected_component_area": 60088,
+      "selected_component_bbox": [
+        204,
+        45,
+        338,
+        652
+      ],
+      "crop_bbox": [
+        204,
+        45,
+        338,
+        652
+      ],
+      "edge_touch": true,
+      "output_size": [
+        23,
+        107
+      ],
+      "paste_position": [
+        52,
+        12
+      ]
+    },
+    {
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        704,
+        704,
+        1408
+      ],
+      "component_mode": "largest",
+      "component_count": 203,
+      "selected_component_area": 65339,
+      "selected_component_bbox": [
+        299,
+        0,
+        545,
+        615
+      ],
+      "crop_bbox": [
+        299,
+        0,
+        545,
+        615
+      ],
+      "edge_touch": true,
+      "output_size": [
+        43,
+        108
+      ],
+      "paste_position": [
+        42,
+        11
+      ]
+    },
+    {
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        704,
+        704,
+        1408,
+        1408
+      ],
+      "component_mode": "largest",
+      "component_count": 108,
+      "selected_component_area": 60144,
+      "selected_component_bbox": [
+        203,
+        5,
+        337,
+        613
+      ],
+      "crop_bbox": [
+        203,
+        5,
+        337,
+        613
+      ],
+      "edge_touch": true,
+      "output_size": [
+        23,
+        107
+      ],
+      "paste_position": [
+        52,
+        12
+      ]
+    }
+  ],
+  "edge_touch_frames": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ]
+}
